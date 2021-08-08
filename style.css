@@ -12,9 +12,9 @@ header {
 	border-bottom: 1px solid white;
 }
 
-.nav > img {
+.nav>img {
 	position: relative;
-	top: 35px; 
+	top: 35px;
 	left: 250px;
 }
 
@@ -26,19 +26,19 @@ header {
 	list-style-type: none;
 }
 
-.nav ul > li {
+.nav ul>li {
 	margin-top: 0px;
 }
 
-.nav ul > li > a {
+.nav ul>li>a {
 	display: block;
 	padding: .5em;
 	color: white;
 	text-decoration: none;
 }
 
-.nav ul > li > a:hover {
-	color:#2dd7d8;
+.nav ul>li>a:hover {
+	color: #2dd7d8;
 }
 
 .main {
@@ -49,15 +49,15 @@ header {
 	color: white;
 }
 
-.main > input {
+.main>input {
 	background-color: transparent;
 	color: white;
 	padding: 10px;
 	border: 1px solid white;
 }
 
-.main > input:hover {
-	box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 1);
+.main>input:hover {
+	box-shadow: 0px 0px 2px 2px rgba(255, 255, 255, 1);
 }
 
 .info {
@@ -82,7 +82,7 @@ header {
 	height: 50px;
 }
 
-.block-image > img {
+.block-image>img {
 	height: 50px;
 }
 
@@ -90,7 +90,7 @@ header {
 	color: #000;
 }
 
-.block:hover  img {
+.block:hover img {
 	display: none;
 	height: 50px;
 }
@@ -100,9 +100,9 @@ footer {
 	background-position: bottom;
 }
 
-footer > img {
+footer>img {
 	position: relative;
-	top: 35px; 
+	top: 35px;
 	left: 250px;
 }
 
