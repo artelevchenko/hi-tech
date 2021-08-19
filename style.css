@@ -3,6 +3,10 @@ body {
 	margin: 0 auto;
 }
 
+h2 {
+	color: #333333;
+}
+
 header {
 	background-image: url(./image/main.jpg);
 	background-position: center;
@@ -38,7 +42,7 @@ header {
 }
 
 .nav ul>li>a:hover {
-	color: #2dd7d8;
+	color: #17bed2;
 }
 
 .main {
@@ -73,7 +77,7 @@ header {
 	width: 350px;
 	padding: 20px;
 	background-color: white;
-	color: #333;
+	color: #a6a7aa;
 	border-radius: 5%;
 	margin: 5px;
 }
@@ -87,7 +91,7 @@ header {
 }
 
 .block:hover {
-	color: #000;
+	color: #333333;
 }
 
 .block:hover img {
@@ -96,7 +100,7 @@ header {
 }
 
 .products p {
-	color: #333;
+	color: #a6a7aa;
 }
 
 .products .first-product {
@@ -120,15 +124,102 @@ header {
 }
 
 .products .latest-products>a {
-	display: block;
+	display: inline-block;
 	padding: .5em;
-	color: #111010;
+	color: #333333;
 	text-decoration: none;
 }
 
 .products .latest-products>a:hover {
-	color: #2dd7d8;
+	color: #17bed2;
 }
+
+.sponsors .sponsors-images {
+	background-color: #fafafa;
+	padding: 100px 200px 100px 250px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.sponsors .sponsors-images>img {
+	margin-right: 30px;
+}
+
+.sponsors .blockquote {
+	margin: 30px 40px;
+	position: relative;
+}
+
+.sponsors .blockquote:before {
+	position: absolute;
+	top: -20px;
+	left: -50px;
+	font-size: 100px;
+	display: inline-block;
+	color: #17bed2;
+	content: '“';
+}
+
+.sponsors .sponsors-reviews {
+	width: 900px;
+	padding: 100px 350px;
+}
+
+.sponsors .sponsors-reviews>p {
+	color: #a6a7aa;
+}
+
+.sponsors .sponsors-reviews .fweight {
+	font-weight: bold;
+}
+
+.price {
+	background-color: #fafafa;
+	padding: 100px 150px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.price>div {
+	box-sizing: border-box;
+	width: 400px;
+	padding: 20px;
+	background-color: white;
+	margin: 0 2px;
+}
+
+.price img {
+	height: 50px;
+}
+
+.price div>ul {
+	list-style-type: '- ';
+}
+
+.price .price-button {
+	text-align: center;
+}
+
+.price .price-button>input {
+	border:none;
+	color: #a6a7aa;
+	padding: 10px;
+}
+
+.price .price-button>input:hover {
+	background-color: #17bed2;
+	color: white;
+}
+
+.price .professional {
+	position: relative;
+	top: -20px;
+	height: 340px;
+	padding: 40px 20px;
+}
+
 
 footer {
 	background-image: url(./image/main.jpg);
